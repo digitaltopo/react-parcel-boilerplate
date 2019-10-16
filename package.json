@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@hot-loader/react-dom": "^16.10.2",
-    "parcel-plugin-bundle-visualiser": "^1.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -26,7 +25,8 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
     "parcel": "1.12.4",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-bundle-visualiser": "^1.2.0"
   },
   "alias": {
     "react-dom": "@hot-loader/react-dom"
