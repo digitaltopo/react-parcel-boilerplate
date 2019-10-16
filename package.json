@@ -1,0 +1,27 @@
+{
+  "name": "react-parcel-boilerplate",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build --experimental-scope-hoisting --public-url . src/index.html"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.10.2",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-hot-loader": "^4.12.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "parcel": "1.12.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "alias": {
+    "react-dom": "@hot-loader/react-dom"
+  }
+}
