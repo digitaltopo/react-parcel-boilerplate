@@ -1,5 +1,12 @@
 {
   "name": "react-parcel-boilerplate",
+  "version":"0.0.1",
+  "description":"A React app boilerplate built with Parcel",
+  "author": "Orestis Herodotou <admin@digitaltopo.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitaltopo/react-parcel-boilerplate.git"
+  },
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build --experimental-scope-hoisting --public-url . src/index.html"
