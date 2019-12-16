@@ -1,7 +1,7 @@
 {
   "name": "react-parcel-boilerplate",
-  "version":"0.0.1",
-  "description":"A React app boilerplate built with Parcel",
+  "version": "0.0.1",
+  "description": "A React app boilerplate built with Parcel",
   "author": "Orestis Herodotou <admin@digitaltopo.net",
   "repository": {
     "type": "git",
