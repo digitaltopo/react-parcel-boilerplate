@@ -1,8 +1,11 @@
 import React from 'react';
-import {hot} from 'react-hot-loader';
+import TestComponent from '../components/TestComponent';
 
-const App = () => <div>
+const App = () => (
+  <div>
     Hello World!
-</div>;
+    <TestComponent/>
+  </div>
+);
 
-export default hot(module)(App);
+export default App;
